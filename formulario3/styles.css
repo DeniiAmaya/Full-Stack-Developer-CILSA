@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+.form-container {
+    background-color: #ccc; /* Color de fondo gris */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 400px; /* Ancho máximo del contenedor */
+    padding: 50px; /* Espaciado interno */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    background-color: white; /* Contenedor interno blanco */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: black;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black; /* Bordes del botón */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
